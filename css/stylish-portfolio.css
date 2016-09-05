@@ -27,7 +27,7 @@ a {
 
 a:hover,
 a:visited {
-  color: currentColor;
+  color: currentColor;;
 }
 
 
@@ -38,6 +38,7 @@ a:visited {
 .blue {
   color: #2B3856;
 }
+
 
 .text-vertical-center {
   display: table-cell;
@@ -52,9 +53,6 @@ a:visited {
   font-size: 4.5em;
   font-weight: 700;
 }
-
-
-
 
 
 /* Custom Button Styles */
@@ -76,12 +74,15 @@ a:visited {
 .btn-light {
   border-radius: 0;
   color: #333;
-  background-color: rgb(255,255,255);
+  background-color: rgba(255,255,255,0.8);
 }
 
+
+.btn-light:visited,
 .btn-light:hover,
 .btn-light:focus,
 .btn-light:active {
+  border-radius: 0;
   color: #333;
   background-color: rgba(255,255,255,0.8);
 }
