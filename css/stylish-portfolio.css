@@ -15,6 +15,7 @@ body {
 mark {
   color:currentColor;
   background-color: rgba(50,50,50,0.9);
+  
 }
 
 body {
@@ -86,7 +87,7 @@ a:visited {
 .btn-dark {
   border-radius: 0;
   color: #fff;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(50,50,50,0.9);
 
 }
 
@@ -263,10 +264,11 @@ hr.small {
   /*clip: rect(0px,255px,400px,0px);*/
   height: 255px;
   width: 500px;
+  opacity: 0.8;
 }
 
 .img-portfolio:hover {
-  opacity: 0.6;
+  opacity: 1.2;
 }
 
 /* Call to Action */
