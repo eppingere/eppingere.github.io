@@ -224,58 +224,58 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h3>Learn More Some More About Me</h3>
-      <div class="blue">
-        <a href="project-descriptions.html#act" target="_blank" class="btn btn-lg btn-light">Swimming</a>
-        <a href="https://www.naqt.com/stats/player.jsp?contact_id=138869" target="_blank" class="btn btn-lg btn-light">NAQT Quizbowl</a>
-        <a href="https://dailykvetcher.blogspot.com/" target="_blank" class="btn btn-lg btn-light">Satirical Comedy Blog</a>
-      </div>
-    </div>
-    </div>
-    </div>
-  </aside>
-
-  <!-- Footer -->
-  <footer id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-10 col-lg-offset-1 text-center">
-          <h3><strong>Emmanuel J. Eppinger</strong>
-            </h3>
-          <ul class="list-unstyled">
-            <font color="#2B3856"><i class="fa fa-envelope-o fa-fw"></i><a href="mailto:ej.eppinger@gmail.com">ej.eppinger@gmail.com</a>
-            </font>
-          </ul>
-          <br>
-          <ul class="list-inline">
-            <li>
-              <a href="https://github.com/eppingere" target="_blank"><i class="fa fa-github fa-fw fa-4x"></i></a>
-              <p>GitHub</p>
-            </li>
-            <li>
-              <a href="https://twitter.com/search?vertical=default&q=%40wt_quizbowl&src=typd" target="_blank"><i class="fa fa-twitter fa-fw fa-4x"></i></a>
-              <p>Twitter</p>
-            </li>
-            <li>
-              <a href="https://drive.google.com/file/d/0B3GzoduBfLguTlF5WlhrU3RvcUk/view?usp=sharing" target="_blank"><i class="fa fa-file-text fa-4x"></i></a>
-              <p>CV</p>
-            </li>
-          </ul>
-          <hr class="small">
-          <p class="text-muted">Copyright &copy; Emmanuel J. Eppinger 2016</p>
+            <div class="blue">
+              <a href="project-descriptions.html#act" target="_blank" class="btn btn-lg btn-light">Swimming</a>
+              <a href="https://www.naqt.com/stats/player.jsp?contact_id=138869" target="_blank" class="btn btn-lg btn-light">NAQT Quizbowl</a>
+              <a href="https://dailykvetcher.blogspot.com/" target="_blank" class="btn btn-lg btn-light">Satirical Comedy Blog</a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
-  </footer>
+    </aside>
 
-  <!-- jQuery -->
-  <script src="js/jquery.js"></script>
+    <!-- Footer -->
+    <footer id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1 text-center">
+            <h3><strong>Emmanuel J. Eppinger</strong>
+            </h3>
+            <ul class="list-unstyled">
+              <font color="#2B3856"><i class="fa fa-envelope-o fa-fw"></i><a href="mailto:ej.eppinger@gmail.com">ej.eppinger@gmail.com</a>
+              </font>
+            </ul>
+            <br>
+            <ul class="list-inline">
+              <li>
+                <a href="https://github.com/eppingere" target="_blank"><i class="fa fa-github fa-fw fa-4x"></i></a>
+                <p>GitHub</p>
+              </li>
+              <li>
+                <a href="https://twitter.com/search?vertical=default&q=%40wt_quizbowl&src=typd" target="_blank"><i class="fa fa-twitter fa-fw fa-4x"></i></a>
+                <p>Twitter</p>
+              </li>
+              <li>
+                <a href="https://drive.google.com/file/d/0B3GzoduBfLguTlF5WlhrU3RvcUk/view?usp=sharing" target="_blank"><i class="fa fa-file-text fa-4x"></i></a>
+                <p>CV</p>
+              </li>
+            </ul>
+            <hr class="small">
+            <p class="text-muted">Copyright &copy; Emmanuel J. Eppinger 2016</p>
+          </div>
+        </div>
+      </div>
+      <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
 
-  <!-- Bootstrap Core JavaScript -->
-  <script src="js/bootstrap.min.js"></script>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-  <!-- Custom Theme JavaScript -->
-  <script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
     // Closes the sidebar menu
     $("#menu-close").click(function(e) {
       e.preventDefault();
@@ -336,18 +336,18 @@
       that.find('iframe').css("pointer-events", "none");
     }
     var onMapClickHandler = function(event) {
-        var that = $(this);
-        // Disable the click handler until the user leaves the map area
-        that.off('click', onMapClickHandler);
-        // Enable scrolling zoom
-        that.find('iframe').css("pointer-events", "auto");
-        // Handle the mouse leave event
-        that.on('mouseleave', onMapMouseleaveHandler);
-      }
-      // Enable map zooming with mouse scroll when the user clicks the map
+      var that = $(this);
+      // Disable the click handler until the user leaves the map area
+      that.off('click', onMapClickHandler);
+      // Enable scrolling zoom
+      that.find('iframe').css("pointer-events", "auto");
+      // Handle the mouse leave event
+      that.on('mouseleave', onMapMouseleaveHandler);
+    }
+    // Enable map zooming with mouse scroll when the user clicks the map
     $('.map').on('click', onMapClickHandler);
-  </script>
+    </script>
 
-</body>
+  </body>
 
-</html>
+  </html>
