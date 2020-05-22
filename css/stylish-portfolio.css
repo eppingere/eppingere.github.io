@@ -15,7 +15,7 @@ body {
 mark {
   color:currentColor;
   background-color: rgba(50,50,50,0.9);
-  
+
 }
 
 body {
@@ -23,12 +23,12 @@ body {
 }
 
 a {
-  color: #2B3856;
+  color: currentColor;
 }
 
 a:hover,
 a:visited {
-  color: currentColor;;
+  color: currentColor;
 }
 
 
