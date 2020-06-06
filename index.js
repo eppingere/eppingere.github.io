@@ -55,8 +55,8 @@ terrier=# <!-- laglaglaglaglaglag -->SELECT * FROM Projects;
         name           |          scope        |     website     |                                                   description
 =========================================================================================================================================================================================
 Babble                 | PennApps 18           | <a href="https://eppi.ng/babble">eppi.ng/babble</a>  | Completely decentralized chat app, no network required.
-NUMA Aware Thread Pool | 15-721 Course Project | <a href="https://eppi.ng/babble">eppi.ng/terrier</a> | Hyper Morsel/SQL Server SQLOS style task scheduler. Simulate large number of threads on system.
-B+Tree                 | 15-721 Course Project | <a href="https://eppi.ng/babble">eppi.ng/terrier</a> | Almost-Latch Free B+Tree. Comparable to BW-Tree and offers 20x improvement for concurrent randomized reads and writes.
+NUMA Aware Thread Pool | 15-721 Course Project | <a href="https://github.com/cmu-db/terrier/pull/851">eppi.ng/terrier</a> | Hyper Morsel/SQL Server SQLOS style task scheduler. Simulate large number of threads on system.
+B+Tree                 | 15-721 Course Project | <a href="https://eppi.ng/terrier">eppi.ng/terrier</a> | Almost-Latch Free B+Tree. Comparable to BW-Tree and offers 20x improvement for concurrent randomized reads and writes.
 (3 rows)
 terrier=#<!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag -->^D
 <span id="a">you@eppi.ng</span>:<span id="b">~</span><span id="c">$</span> <!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag -->cat ../CONTACTME.md
