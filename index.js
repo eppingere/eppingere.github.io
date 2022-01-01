@@ -3,8 +3,7 @@
 var content = `
 <pre><span id="a">you@eppi.ng</span>:<span id="b">~</span><span id="c">$</span><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag--> cd interactive-terminal-site
 <span id="a">you@eppi.ng</span>:<span id="b">~</span><span id="c">$</span><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag--> cat ABOUTME.md<br/>
-Hi, My name is Emmanuel Eppinger (<a href="cv.pdf">CV</a>). <!-- sjkfhskjf --> I am a Computer Science and Pre-Law student at Carnegie Mellon University,
-graduating sometime soon (Fall '20 or Spring '21, COVID is a mess).
+Hi, My name is Emmanuel Eppinger (<a href="cv.pdf">CV</a>). <!-- sjkfhskjf --> I am a Software Engineer at Jump Trading
 
 <span id="a">you@eppi.ng</span>:<span id="b">~</span><span id="c">$</span><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag --> ssh emmanuee@unix.andrew.cmu.edu
 password: <!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag -->
@@ -16,7 +15,7 @@ password: <!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglagla
 * 15-721: Advanced Database Systems <!-- laglaglag -->
 * 15-445: Intro to Database Systems <!-- laglaglag -->
 * 15-440: Distributed Systems <!-- laglaglag -->
-* 15-746: Storage Systems (Fall 2020) <!-- laglaglag -->
+* 15-746: Storage Systems <!-- laglaglag -->
 
 In case you couldn't tell, I like databases!!
 
